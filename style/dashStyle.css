@@ -1,0 +1,361 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");*/
+
+body{
+    margin:0px;
+    font-family: "Poppins", sans-serif;
+    background-image: url("../images/dashBg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*      Nav Bar     */
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+    z-index: 1;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    display: inline-block;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+}
+
+#buyli,#sellli{
+    cursor: pointer;
+}
+
+/*Profile icon*/
+#profile{
+    margin: 15px;
+    float: right;
+    display: block;
+}
+
+/*      Dark mode       
+#drkmode{
+    float: right;
+    margin: 25px 0px;
+}
+
+.mode{
+    background-color: #1e99be;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#light{
+    display: none;
+}
+
+#dark:hover{
+    background-color: #63dbff;
+}*/
+
+
+/*      Dashboard       */
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+#dashboard{
+    width: 60%;
+    padding: 30px;
+    box-shadow: 0 0 15px 0px #5c5c5c;
+    border-radius: 10px;
+    background: white;
+}
+
+hr{
+    width: 90%;
+}
+
+button {
+    width: 80%;
+    padding: 15px 0px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 0px #9e9999;
+}
+
+#dashboard button:hover {
+    background: #d4d4d4;
+}
+
+#dashboard #logout{
+    background-color: #ff4917;
+}
+
+#dashboard #logout:hover{
+    background-color: red;
+}
+
+section{
+    border: 0;
+    margin: 50px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0px #5c5c5c;
+}
+section nav{
+    box-shadow: none;
+    height: 50px;
+    background: transparent;
+    position: relative;
+    z-index: 0;
+    padding-top: 20px;
+}
+section ul{
+    left: initial;
+    margin-left: 50px;
+}
+section hr{
+    margin-top: 0px;
+    background: black;
+    width: initial;
+    margin: 0 50px;
+}
+section li a{
+    padding: 8px 15px 0px 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hover{
+    background:white;
+}
+.hover:hover{
+    background: #d1d1d1;
+}
+.activeNav{
+    color: #6614d2;
+    background: antiquewhite;
+}
+
+.ads{
+    margin: 60px 40px 10px 60px;
+    padding: 10px;
+    background: ghostwhite;
+    border-radius: 10px;
+}
+.adDisc {
+    width: 72%;
+    overflow-wrap: break-word;
+    float: right;
+    margin-left: 20px;
+    height: 13.5vw;
+}
+
+.adDisc h2{
+    margin-top: 0;
+}
+
+.adDisc p{
+    height:115px
+}
+
+.adDisc button{
+    width: 20%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 0;
+    background: #777777c7;
+    font-weight: bold;
+    color: white;
+}
+.adDisc button:hover{
+    background:#5a5a5ac7;
+}
+.approve:hover{
+    background: #009688 !important;
+}
+.reject:hover{
+    background: #F44336 !important;
+}
+
+.rejected{
+    background: #ffd4d4;
+}
+
+#boost{
+    margin-top: 20px;
+    height: 50px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#boost p{
+    width: 75%;
+    display: inline-block;
+}
+
+.ads a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#boost button{
+    margin: 0;
+    width: 20%;
+    float: right;
+    border-radius: 5px;
+    background: #04df78;
+    box-shadow: none;
+    color: white;
+    font-weight: bold;
+}
+
+#postAd1{
+    width: 20%;
+    background: #000000ad;
+    border-radius: 5px;
+    margin: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#postAd:hover{
+    background: rgba(37, 37, 37, 0.678);
+}
+
+#postAd a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ 
+#nav2{
+    height:28px !important;
+}
+
+.userType{
+    padding: 5px 50px;
+    background : white;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.userType:hover{
+    background: #c8e5ff;
+}
+
+.typeActive{
+    background:whitesmoke;
+}
+
+#Sellers{
+    display: none;
+}
+
+.tbldiv{
+    background:whitesmoke;
+    margin: 0px 50px;
+    padding:20px;
+    overflow: overlay;
+}
+
+.accNull{
+    display: none;
+}
+
+table{
+    width:100%;
+    text-align:center;
+}
+
+
+th,td{
+    padding: 5px 20px;
+}
+
+th{
+    padding: 10px;
+}
+
+/*      Footer    */
+footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+footer div{
+    padding: 10px 0px;
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72
+}
+
+#cpyryt{
+    font-weight: 400;
+}

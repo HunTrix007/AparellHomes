@@ -1,0 +1,200 @@
+body{
+    margin:0px;
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+    z-index:1;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    position: absolute;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+
+}
+/*Dark mode
+#drkmode{
+    float: right;
+    margin: 25px 0px;
+}
+
+.mode{
+    background-color: #1e99be;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#light{
+    display: none;
+}
+
+#dark:hover{
+    background-color: #63dbff;
+}*/
+
+    
+/*content*/
+.main{
+    text-align: justify;
+    width:77%;
+    margin-top:8% ;
+    margin-right:20% ;
+    margin-bottom: 3%;
+    margin-left: 10%;
+  
+    
+    
+}
+.privacy{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Times new roman';
+    color: white;
+}
+.policytext{
+    font-size: 14px;
+    font-family:'Poppins', sans-serif;
+    line-height: 30px;
+
+}
+h4{
+    font-size: 16px;
+    font-family: verdana;
+    margin: 50px 50px 50px 50px;
+
+}
+a{
+    color:black;
+}
+.pic{
+    background-image: url('../images/terms.jpg');
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width:100%;
+    padding-top: 20px;
+   
+}
+ /*Footer*/
+ footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+footer div{
+    padding: 10px 0px;
+    
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72
+}
+
+#cpyryt{
+    font-weight: 400;
+}
+.home{
+    background-image: url('../images/homeImage2.jpg');
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size:100% 600px ;
+    width:100%;
+    height: 460px;
+}
+.pos70{
+    
+    width:60%;
+
+}
+.Welcome{
+    margin-top:60px;
+    margin-left: 15%;
+    font-size: 45px;
+}
+.welcometxt{
+    margin-left: 15%;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    text-align: justify;
+}
+.findButton{
+    margin-left:15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#246af0;
+    text-decoration:none;
+    padding:12px;
+    background-color:white;
+    border:1px solid #246af0;
+    border-radius: 5px;
+
+}
+.findButton:hover{
+    color:#174eb6;
+}

@@ -1,0 +1,125 @@
+body{
+    margin:0px;
+    background-image: url("../images/regBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:#f5f5f575;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    float: left;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+/*Form*/
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 50px;
+    margin-top: 140px;
+    padding-bottom: 40px;
+    background-color: #093d728c;
+    border-radius: 5px;
+    box-shadow: #00000047 0px 3px 10px 2px;
+    color: white;
+    width: 270px;
+}
+
+#form h1{
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+form input{
+    margin: 0px 10px 15px 0px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: #00000047 2px 2px 5px 0px;
+}
+
+#email, #pwd{
+    width: 93%;
+}
+
+#passwrd{
+    display: inline-block;
+    width: 100%;
+}
+
+form input[type=radio]{
+    box-shadow: none;
+}
+
+.show{
+    width: 25px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    display: inline-block;
+    margin-left: 234px;
+    margin-top: -39px;
+    cursor: pointer;
+}
+
+#pwdIco{
+    padding: 0px 5px;
+    background: white;
+    display: none;
+}
+
+form #submitBtn{
+    padding: 10px 25px;
+    background: rgb(5, 163, 13);
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    box-shadow: #00000047 2px 2px 5px 0px;
+    cursor: pointer;
+}
+
+form #submitBtn:hover{
+    background: rgb(4 148 11)
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+    /*Footer*/
+footer{
+    background-color: #4db8ff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 10px 0px #8080804d;
+}    
+
+footer div{
+    padding: 5px 0px;
+}
+
+#cpyryt{
+    font-weight: 400;
+}

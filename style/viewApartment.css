@@ -1,0 +1,297 @@
+body{
+    margin:0px;
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    display: inline-block;
+    position: absolute;
+    left:1px;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+}
+
+/*Login & Signup*/
+#log{
+    margin: 15px;
+    float: right;
+}
+
+#log button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#login{
+    border: 2px solid #84c6e6;
+    background-color: #ffffff;
+}
+
+#signup{
+    border: 2px solid #84c6e6;
+    background-color: #84c6e6;
+}
+
+#login:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    color: #289abe;
+} 
+
+#signup:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    background-color: #289abe;
+    color: white;
+} 
+
+/*Profile icon*/
+#profile{
+    margin: 15px;
+    float: right;
+    display: none;
+}
+
+#dpNav{
+    top: 35px;
+    right: 10px;
+    left: unset;
+    border-radius: 5px;
+    display: none;
+}
+
+#dpNav li{
+    float:none;
+    background: white;
+    padding: 10px;
+}
+
+#dpNav li:hover{
+    background-color: #84c6e6;
+    cursor: pointer;
+}
+
+#dpNav li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+#dpNav a{
+    text-decoration: none;
+    color:black;
+}
+/* footer */
+footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+footer div{
+    padding: 10px 0px;
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72;
+}
+
+#cpyryt{
+    font-weight: 400;
+}
+/* End of Footer */
+.viewAprtpcsArea{
+    
+    margin:40px 30% 5px 30%;
+    width:40%;
+    height:300px;
+    
+    
+}
+.viewAprtpcsArea img{
+    height: 100%;
+    width: 100%;
+}
+.viewdes{
+    margin-left:8%;
+    width:45%;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+#viewTitle{
+    font-size:2vw;
+    margin:1px 1px;
+    font-weight: bold;
+}
+#viewAddress{
+    margin-left:2%;
+    font-size:20px;
+}
+#viewBeds{
+    margin-left:2%;
+    font-size:20px;
+}
+#viewBaths{
+    margin-left:2%;
+    font-size:20px;
+}
+.priceArea{
+    padding:2%;
+    width:25%;
+   float:right;
+}
+#price{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#viewDescription{
+    margin-left:2%;
+    font-size:15px;
+}
+#viewDescription2{
+    margin-left:3%;
+}
+#viewcontactSeller{
+    padding:10px;
+    background-color:rgb(118, 204, 118);
+    border:none;
+    border-radius:5px;
+}
+.ad{
+    display:inline-block;
+    width:25%;
+    margin:2%;
+    box-shadow: 1px 1px 10px #aaaaaa;
+    border-radius: 8px 8px 0px 0px;
+    cursor:pointer;
+    color: black;
+}
+.ad:hover{
+    transform:scale(1.02);
+}
+.ad_description{
+    width:100%;
+    padding-left:15px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.ad_Area{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ad_Area a{
+    text-decoration: none;
+}
+#title{
+    margin-bottom: 6px;
+    font-family:Rockwell;
+    font-size: 130%;
+}
+#Address{
+    margin: 1px;
+    font-size: 80%;
+}
+#noOfBeds{
+    margin: 1px;
+    display:inline-block;
+    margin: 1px 1px 20px 1px;
+    font-size: 80%;
+}
+#baths{
+    margin: 1px 1px 20px 1px;
+    font-size: 80%;
+}
+.adpic{
+    border-radius: 8px 8px 0px 0px;
+    height: 180px;
+}
+#viewcontactSeller{
+    cursor: pointer;
+}
+#contactno{
+    display:none;
+}
+.conDetails{
+    font-size: 20px;
+}
+.no{
+    text-decoration: none;
+    color:black;
+    margin:20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

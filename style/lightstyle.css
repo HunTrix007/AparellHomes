@@ -1,0 +1,356 @@
+body{
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+    z-index: 1;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    display: inline-block;
+    position: absolute;
+    left:1px;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+}
+
+/*Login & Signup*/
+#log{
+    margin: 15px;
+    float: right;
+}
+
+#log button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#login{
+    border: 2px solid #84c6e6;
+    background-color: #ffffff;
+}
+
+#signup{
+    border: 2px solid #84c6e6;
+    background-color: #84c6e6;
+}
+
+#login:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    color: #289abe;
+} 
+
+#signup:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    background-color: #289abe;
+    color: white;
+} 
+
+/*Profile icon*/
+#profile{
+    margin: 15px;
+    float: right;
+    display: none;
+}
+
+#dpNav{
+    top: 35px;
+    right: 10px;
+    left: unset;
+    border-radius: 5px;
+    display: none;
+}
+
+#dpNav li{
+    float:none;
+    background: white;
+    padding: 10px;
+}
+
+#dpNav li:hover{
+    background-color: #84c6e6;
+    cursor: pointer;
+}
+
+#dpNav li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+#dpNav a{
+    text-decoration: none;
+    color:black;
+}
+
+/*Dark mode
+#drkmode{
+    float: right;
+    margin: 25px 0px;
+}
+
+.mode{
+    background-color: #1e99be;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#light{
+    display: none;
+}
+
+#dark:hover{
+    background-color: #63dbff;
+}*/
+
+    /*Footer*/
+footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+@media only screen and (max-width:470px) {
+    footer{
+        background-color: #4db8ff;
+        width: 100%;
+        color: #323031;
+        box-shadow: 0 -2px 20px 0px #8080804d;
+        position: fixed;
+        bottom: 0;
+    }   
+}
+
+footer div{
+    padding: 10px 0px;
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72
+}
+
+#cpyryt{
+    font-weight: 400;
+}
+.home{
+    background-image: url('../images/homeImage2.jpg');
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size:100% 600px ;
+    width:100%;
+    height: 460px;
+}
+.pos70{
+    
+    width:60%;
+
+}
+.Welcome{
+    margin-top:60px;
+    margin-left: 15%;
+    font-size: 45px;
+}
+.welcometxt{
+    margin-left: 15%;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    text-align: justify;
+}
+.findButton{
+    margin-left:15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#246af0;
+    text-decoration:none;
+    padding:12px;
+    background-color:white;
+    border:1px solid #246af0;
+    border-radius: 5px;
+
+}
+.findButton:hover{
+    color:#174eb6;
+    border:1px solid #174eb6;
+    background-color:#dfe9fd;
+}
+.sellButton{
+    margin-left:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    background-color:#3373ee;
+    border:2px solid #3373ee;
+    border-radius: 5px;
+}
+.sellButton:hover{
+    color:white;
+    border:2px solid #0741ad;
+    background-color:#0741ad;
+}
+.stats{
+    width:100%;
+    height:50px;
+}
+.stats{
+    padding-top: 20px;
+    padding-bottom: 220px;
+    background: #4e5c87;
+    color: white;
+    margin: 50px 0;
+}
+.stats h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.anim {
+    width: 20%;
+    display: inline-flex !important;
+    justify-content: center;
+    background: #e6e6e685;
+    height: 180px;
+    align-items: center;
+    line-height: 35px;
+    font-weight: bolder;
+}
+.anim div{
+    display: contents;
+    font-size: 3.5vw;
+}
+.ad{
+    display:inline-block;
+    width:25%;
+    margin:2%;
+    box-shadow: 1px 1px 10px #aaaaaa;
+    border-radius: 8px 8px 0px 0px;
+    cursor:pointer;
+    color: black;
+}
+.ad:hover{
+    transform:scale(1.02);
+}
+.ad_description{
+    width:90%;
+    padding-left:15px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.ad_Area{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ad_Area a{
+    text-decoration: none;
+}
+#title{
+    margin-bottom: 6px;
+    font-family:Rockwell;
+    font-size: 130%;
+}
+#Address{
+    margin: 1px;
+    font-size: 80%;
+}
+#noOfBeds{
+    margin: 1px;
+    display:inline-block;
+    margin: 1px 1px 20px 1px;
+    font-size: 80%;
+}
+#baths{
+    margin: 1px 1px 20px 1px;
+    font-size: 80%;
+}
+.adpic{
+    border-radius: 8px 8px 0px 0px;
+    height: 180px;
+}
+#moreBtn{
+    width: 95px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 10px #6a6868;
+    background: #84c6e6;
+}
+#moreBtn:hover{
+    transform:scale(1.02);
+    box-shadow: 0 0 10px #827f86de;
+    background: #84dfe6;
+}

@@ -1,0 +1,356 @@
+body{
+    margin:0px;
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+    z-index: 1;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    display: inline-block;
+    position: absolute;
+    left:1px;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+}
+
+/*Login & Signup*/
+#log{
+    margin: 15px;
+    float: right;
+}
+
+#log button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#login{
+    border: 2px solid #84c6e6;
+    background-color: #ffffff;
+}
+
+#signup{
+    border: 2px solid #84c6e6;
+    background-color: #84c6e6;
+}
+
+#login:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    color: #289abe;
+} 
+
+#signup:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    background-color: #289abe;
+    color: white;
+} 
+
+/*Profile icon*/
+#profile{
+    margin: 15px;
+    float: right;
+    display: none;
+}
+
+#dpNav{
+    top: 35px;
+    right: 10px;
+    left: unset;
+    border-radius: 5px;
+    display: none;
+}
+
+#dpNav li{
+    float:none;
+    background: white;
+    padding: 10px;
+}
+
+#dpNav li:hover{
+    background-color: #84c6e6;
+    cursor: pointer;
+}
+
+#dpNav li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+#dpNav a{
+    text-decoration: none;
+    color:black;
+}
+/* footer */
+footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+footer div{
+    padding: 10px 0px;
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72;
+}
+
+#cpyryt{
+    font-weight: 400;
+}
+/* End footer */
+.searchArea{
+    background-color:#5f6894;
+    padding-left:7%;
+    margin: 2% 2%;
+    border-radius: 10px;
+    
+} 
+.search{
+    width:50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchico.png');
+    background-size: 25px 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin:20px 10px 20px 5px;
+}
+.submitBtn{
+    width:10%;
+    box-sizing: border-box;
+    border: 2px solid rgb(75, 140, 237);
+    border-radius: 4px;
+    color:white;
+    font-size: 16px;
+    background-color: rgb(75, 140, 237);
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    margin:20px 5px 20px 5px;
+}
+.selectSearch{
+    width:12%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    margin:10px 5px 20px 10px;
+}
+input[type=submit]:hover{
+    border: 2px solid rgb(47, 48, 49);
+    background-color: rgb(47, 111, 207);
+
+}
+.searchWeltxt{
+    padding:2% 8% 0% 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    border:1px solid black;
+    background-color: black;
+}
+.dropdown{
+    display: inline-block;
+    padding: 11px 14px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    
+}
+.dropdownbtn{
+    padding:10px 20px;
+    background-color: whitesmoke;
+    
+}
+.dropdown-content{
+    width: 80px;
+    height: 175px;
+    position:absolute;
+    display:none;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+    /* margin-bottom: 65px; */
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content:hover{
+    display: block;
+}
+.filterslect{
+    width:70px;
+}
+.filterForm{
+    width:30%;
+}
+.sortbyArea{
+    width:10%;
+    border-radius: 5px;
+    display:inline-block;
+    margin-left:20px;
+    
+}
+.selectSortBy{
+    Padding:10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+.DisplayedAds{
+    width:80%;
+    height:200px;
+    margin: 1% 10% 2% 10%;
+    padding: 10px;
+    background: aliceblue;
+    border-radius: 5px;
+}
+.DisplayedAds:hover{
+    background-color: rgba(237, 237, 237, 0.814);
+    border-radius: 10px;
+}
+.pics{
+    width:300px;
+    height:200px;
+
+}
+.AdPictures{
+    width:300px;
+    float:left;
+    margin-right: 20px;
+    
+}
+.Adsdis{
+    width:20%;
+    float:left;
+    overflow-wrap: break-word;
+    
+}
+.title{
+    font-size: 20px;
+    font-weight:700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+.price{
+    border-left:1px solid black;
+    margin:2px 20px ;
+    padding:0px 20px;
+    float:left;
+}
+
+.pPrice{
+    margin-top:4px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactbtn{
+    margin:20px 20px;
+    float:left;
+}
+.contact{
+    padding:10px;
+    background-color:rgb(118, 204, 118);
+    border:none;
+    border-radius:5px;
+}
+
+.noOfRooms, .noOfBaths{
+    margin-bottom: 10px;
+}
+
+.like{
+    width: fit-content;
+    position: absolute;
+    margin-top: -245px;
+    right: 142px;
+}
+
+.heart{
+    color:#ccc;
+    font-size: 25px;
+    cursor:pointer;
+    display: none;
+}

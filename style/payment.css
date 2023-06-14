@@ -1,0 +1,252 @@
+body{
+    margin:0px;
+    
+    
+}
+
+    /*Nav Bar*/
+nav{
+    position:sticky;
+    top:0;
+    background-color:whitesmoke;
+    height: 80px;
+    box-shadow: 0px 3px 20px 1px #84818154;
+}
+
+/*Logo*/
+#logo{
+    height:80px;
+    margin-left: 30px; 
+    display: inline-block;
+    position: absolute;
+    left:1px;
+}
+
+/*Nav buttons*/
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    display: inline-block;
+    position: absolute;
+    height:80px;
+    left: 33%;
+}  
+
+li{
+    float:left;
+}
+
+li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+.active{
+    color:#1e99be;
+}
+
+.active .hov{
+    border-bottom: 2px solid #114554;
+}
+
+.hov{
+    border-bottom: 0px solid black;
+    width: 100%;
+}
+
+.hov:hover{
+    color:#289abe;
+    border-bottom: 2px solid #289abe;
+}
+
+/*Login & Signup*/
+#log{
+    margin: 15px;
+    float: right;
+}
+
+#log button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#login{
+    border: 2px solid #84c6e6;
+    background-color: #ffffff;
+}
+
+#signup{
+    border: 2px solid #84c6e6;
+    background-color: #84c6e6;
+}
+
+#login:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    color: #289abe;
+} 
+
+#signup:hover{
+    cursor: pointer;
+    border: 2px solid #289abe;
+    background-color: #289abe;
+    color: white;
+} 
+
+/*Profile icon*/
+#profile{
+    margin: 15px;
+    float: right;
+    display: none;
+}
+
+#dpNav{
+    top: 35px;
+    right: 10px;
+    left: unset;
+    border-radius: 5px;
+    display: none;
+}
+
+#dpNav li{
+    float:none;
+    background: white;
+    padding: 10px;
+}
+
+#dpNav li:hover{
+    background-color: #84c6e6;
+    cursor: pointer;
+}
+
+#dpNav li a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display:block;
+    font-size:medium;
+    color:black;
+    padding: 30px 20px;
+}
+
+#dpNav a{
+    text-decoration: none;
+    color:black;
+}
+/* footer */
+footer{
+    background-color: #4db8ff;
+    width: 100%;
+    color: #323031;
+    box-shadow: 0 -2px 20px 0px #8080804d;
+}    
+
+footer div{
+    padding: 10px 0px;
+}
+
+#icons img{
+    margin: 5px 10px 0px 10px;
+} 
+
+#icons img:hover {
+    transform: scale(1.1);
+}
+
+#links a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    color: #093d72;
+}
+
+#cpyryt{
+    font-weight: 400;
+}
+.pic{
+    background-image: url('../images/BackgroundI.jpg');
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size:100% 510px;
+    width:100%;
+    
+}
+.imageArea{
+    width:30%;
+    display:inline-block;
+    padding:4% 6%;
+    background-color:#a3d7fa;
+}
+
+.paymentArea{
+    padding: 1% 4% 4% 4%;
+    width:40%;
+    
+    background-color: rgb(185, 228, 235);
+    text-align: center;
+    margin:2% auto ;
+    text-align: center;
+    border:1px solid black;
+    border-radius:10px;
+    
+}
+#chooseSub{
+    margin-bottom: 16%;
+}
+.subDes{
+    margin-left: 20px;
+}
+.pack{
+    border:2px solid black;
+    border-radius: 10px;
+    width:fit-content;
+    padding:10px 20px;
+    display:inline-block;
+    margin-left:2%;
+    margin-bottom: 3%;
+    text-align: left;
+
+}
+.pack:hover{
+    background-color: #c5dae0;
+}
+input[type=email], select{
+    padding:10px;
+    border-radius:10px;
+    width:80%;
+    margin:2% 4%;
+
+}
+input[type=text]{
+    padding:10px;
+    border-radius:10px;
+    width:80%;
+    margin:2% 4%;
+
+}
+.headings{
+    font-size: 1.8vw;
+}
+#paybtn{
+    margin-top: 8%;
+    padding:10px 30px;
+    background-color: rgb(160, 223, 160);
+    border: none;
+    border-radius: 10px;
+    width:30%;
+}
+#paybtn:hover{
+    background-color: rgb(38, 230, 38);
+}
