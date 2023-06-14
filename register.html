@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register | Aparell</title>
+        <link rel="icon" type="image" href="images/Favicon.png">
+        <link rel="stylesheet" href="style/regStyle.css" id="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Logo -->
+        <a href="index.php"><img src="images/Logo(light).png" id="logo" alt="logo"></a>
+
+        <!-- Registeration Form -->
+        <div id="form">
+            <form action="createAcc.php" method="POST" id="regForm">
+                <h1>Create Your Account</h1>
+                
+                <!-- Name -->
+                <label for="fName">Name</label><br>
+                <input type="text" name="fName" id="fName" placeholder="First Name" class="name" required>
+                <input type="text" name="lName" id="lName" placeholder="Last Name" class="name" required>
+                
+                <br>
+
+                <!-- Address -->
+                <label for="addrs">Address</label><br>
+                <textarea name="addrs" id="addrs" cols="46" rows="2" placeholder="Optional"></textarea>
+                
+                <br>
+
+                <!-- Account type -->
+                <label>I am a</label><br>
+                <input type="radio" name="accType" id="buyer" value="buyer" checked><label for="buyer" style="padding-right: 10px">Buyer</label>
+                <input type="radio" name="accType" id="seller" value="seller" ><label for="seller">Seller</label>
+                
+                <br>
+
+                <!-- Email -->
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="example@example.xyz" required>
+                
+                <br>
+
+                <!-- Phone No -->
+                <label for="phone">Phone No</label><br>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="0715886675" required>
+                
+                <br>
+
+                <div id="passwrd">
+                    <!-- Password -->
+                    <label for="pwd">Password</label><br>
+                    <input type="password" name="pwd" id="pwd" minlength="8" placeholder="Password" required onkeyup="showImg('pwd','pwdIco');">
+                    <div class="show" onclick="showPwd('pwd','pwdIco')"><img src="images/show.png" width="20px" height="20px" id="pwdIco"></div>
+                </div>
+                <div id="confirmPasswrd">    
+                    <!-- Confirm Password -->
+                    <label for="cPwd">Confirm Password</label><br>
+                    <input type="password" name="cPwd" id="cPwd" placeholder="Confirm" required onkeyup="showImg('cPwd','cPwdIco');">
+                    <div class="show" onclick="showPwd('cPwd','cPwdIco')"><img src="images/show.png" width="20px" height="20px" id="cPwdIco"></div>
+                </div>    
+
+                <br>
+
+                <!-- Terms and Conditions -->
+                <input type="checkbox" name="terms" id="terms" required onclick="enableButton();"><label for="terms">I have read and accepted the <a href="terms.html">Terms & Conditions</a></label>
+                
+                <br><br>
+
+                <center>
+                    <!-- Submit Button -->
+                    <button id="submitBtn" disabled>Create Account</button>
+
+                    <!-- login -->
+                    <p>Already have an account? <a href="loginHTML.php">sign in</a></p>
+                </center>
+            </form>
+        </div>
+
+        <br>
+
+        <!-- Footer -->
+        <footer>
+            <center>
+                <!-- Copyrights -->
+                <div id="cpyryt">
+                    &#x00A9 2022 Aparell Homes
+                </div>
+            </center>
+        </footer>
+
+        <script src="js/regScript.js"></script>
+    </body>
+</html>
